@@ -1,0 +1,281 @@
+@import "fonts.css";
+
+/*NAVIGATION___MENU*/
+body {
+    background-color: gray;
+    margin: 0;
+    /*padding: 100px;*/
+    /*width: available;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-content: center;*/
+}
+
+.menu-bar {
+    background-color: white;
+    color: #ef0e0e;
+    /*width: 1400px;*/
+    padding: 20px 0;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-content: space-between;*/
+}
+
+.header img {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.menu-container {
+    /*display: flex;*/
+    align-self: center;
+    /*justify-content: flex-end;*/
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+ul, li {
+    display: block;
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__item a {
+    font-family: "Open Sans Semibold";
+    font-size: 20px;
+    color: #212121;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    color: #ef0808;
+}
+
+a svg {
+    width: 20px;
+    height: 20px;
+}
+
+/*HEADER*/
+
+.header-background {
+    background-image: url("../img/header-background.png");
+    background-size: cover;
+    background-position: 0 65%;
+    padding: 180px 0;
+    text-align: center;
+    color: white;
+    /*height: 665px;*/
+    /*padding: 0 0;*/
+    /*margin-top: 0;*/
+}
+
+.header-title {
+    font-family: "Open Sans Semibold";
+    font-size: 60pt;
+}
+
+.header-text {
+    font-family: "Open Sans Regular";
+    font-size: 22pt;
+    margin-bottom: 110px;
+}
+
+.header-button {
+    font-family: "Roboto Light";
+    font-size: 20pt;
+    color: white;
+    padding: 15px 25px;
+    margin: 0 10px;
+    transition: 0.3s;
+    background: transparent;
+    border: 2px solid white;
+    /*height: 70px;*/
+    /*width: 220px;*/
+}
+
+.button_empty {
+    color: white;
+    background-color: #00897b;
+    border-color: #00897b;
+}
+
+.header-button:hover,
+.button_empty:hover {
+    border: 2px dotted white;
+    background-color: #03514c;
+}
+
+/*ABOUT__US*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*justify-content: center;*/
+    background-color: white;
+    padding: 120px 0;
+    align-content: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*display: flex;*/
+    padding: 0 300px;
+    /*margin: 125px;*/
+}
+
+.about-title {
+    font-family: "Open Sans Bold";
+    font-size: 30pt;
+}
+
+.about-text {
+    font-family: "Open Sans Regular";
+    font-size: 15pt;
+
+}
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 125px;
+    margin: 0 50px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.advantages h1 {
+    font-family: "Open Sans Semibold";
+    font-size: 20pt;
+}
+
+.advantages p {
+    font-family: "Open Sans Regular";
+    font-size: 15pt;
+}
+
+.advantages img {
+    width: 60px;
+}
+
+/*.advantages_title {*/
+/*font-family: "Open Sans Semibold";*/
+/*    font-size: 20pt;*/
+/*}*/
+
+/*.advantages_text {*/
+/*font-family: "Open Sans Regular";*/
+/*    font-size: 15pt;*/
+/*}*/
+
+/*SERVICES*/
+
+.services-container {
+    background-color: #e4fdf9;
+    /*margin-left: 130px;*/
+    /*margin-right: 130px;*/
+    margin: 0;
+}
+
+.service-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 174px 380px 120px;
+}
+
+.service-info h1 {
+    font-family: "Open Sans Bold";
+    font-size: 30pt;
+}
+
+.service-info p {
+    font-family: "Open Sans Regular";
+    font-size: 15pt;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 98px;
+    margin-right: 98px;
+    margin-top: 0;
+
+}
+
+
+.services-block {
+    width: 370px;
+    height: 438px;
+    border: 0 solid white;
+    text-align: center;
+    padding: 50px 20px 40px;
+    margin: 35px;
+    background-color: white;
+    transition: 0.3s;
+
+}
+
+.services-block:hover {
+    background: #00897b;
+    color: white;
+    box-shadow: 0 10px 12px -3px rgba(0, 0, 0, 0.50);
+}
+
+.services-block h1 {
+    font-family: "Open Sans Semibold";
+    font-size: 20pt;
+}
+
+.services-block p {
+    font-family: "Open Sans Regular";
+    font-size: 15pt;
+}
+
+.services-block-button {
+    font-family: "Open Sans Semibold";
+    font-size: 20pt;
+    color: black;
+    padding: 15px 25px;
+    margin: 0 10px;
+    transition: 0.3s;
+    background: transparent;
+    border: 2px solid black;
+}
+
+.services-block:hover .services-block-button {
+    border: 2px solid white;
+    background-color: #00897b;
+    color: white;
+}
+
+.services-block-button:hover {
+    cursor: pointer;
+}
+
+.services-block svg {
+    height: 60px;
+}
+
+
+
